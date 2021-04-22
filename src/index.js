@@ -12,7 +12,7 @@ function windowResize(event) {
     body.style.background = "#3498db";
   } else if (window.innerWidth >= 600 && window.innerWidth < 800) {
     body.style.background = "#9b59b6";
-  } else if (window.innerWidth >= 800) {
+  } else if (window.innerWidth >= 800 && window.innerWidth < 1000) {
     body.style.background = "#f39c12";
   } else {
     body.style.background = "#e74c3c";
